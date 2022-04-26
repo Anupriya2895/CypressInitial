@@ -1,0 +1,102 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "mobile Automate",
+    "line": 1,
+    "id": "mobile-automate",
+    "tags": [],
+    "uri": "mobileLogin.feature",
+    "elements": [
+      {
+        "id": "mobile-automate;mobileregister",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "MobileRegister",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Mobileuser open home page and click sign in",
+            "result": {
+              "status": "passed",
+              "duration": 16096000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Mobileuser types email id for sign up",
+            "result": {
+              "status": "passed",
+              "duration": 1895000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Mobileuser fill the Manadatory fields Clicks register",
+            "result": {
+              "status": "passed",
+              "duration": 13184000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Mobileuser logged home page opens",
+            "result": {
+              "status": "passed",
+              "duration": 4857000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "mobile-automate;mobilelogin",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "MobileLogin",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "Mobileuser open home page and click sign in",
+            "result": {
+              "status": "passed",
+              "duration": 8999000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Mobileuser enters Email Id and Password",
+            "result": {
+              "status": "passed",
+              "duration": 5240000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Mobileuser logged home page opens",
+            "result": {
+              "status": "passed",
+              "duration": 4040000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Automate Signup Functionality and Sign In",
+    "line": 1,
+    "id": "automate-signup-functionality-and-sign-in",
+    "tags": [],
+    "uri": "RegisterLogin.feature",
+    "elements": [
+      {
+        "id": "automate-signup-functionality-and-sign-in;register",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Register",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user open home page and click sign in",
+            "result": {
+              "status": "passed",
+              "duration": 11731000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user types email id for sign up",
+            "result": {
+              "status": "passed",
+              "duration": 1927000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user fill the Manadatory fields Clicks register",
+            "result": {
+              "status": "passed",
+              "duration": 17710000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the logged home page opens",
+            "result": {
+              "status": "passed",
+              "duration": 8969000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "automate-signup-functionality-and-sign-in;login",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "the user open home page and click sign in",
+            "result": {
+              "status": "passed",
+              "duration": 9488000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user enters Email Id and Password",
+            "result": {
+              "status": "passed",
+              "duration": 5781000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the logged home page opens",
+            "result": {
+              "status": "passed",
+              "duration": 5761000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

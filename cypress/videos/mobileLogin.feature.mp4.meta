@@ -1,0 +1,11 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/1000
+START=-8096
+END=40684
+title=mobile Automate MobileRegister
+[CHAPTER]
+TIMEBASE=1/1000
+START=65433
+END=89510
+title=mobile Automate MobileLogin
